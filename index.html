@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake Upson Password Creator</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Container holding Password generator and button-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <header>
+                    <h1>Password Generation App</h1>
+                </header>
+            </div>
+        </div>
+        <div class="row innerOne">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-12 innerOne">
+                        <h2>Generate a Password</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--Area where password will be displayed once prompts are filled out-->
+                        <textarea id="passwordPlacement" placeholder="Your Secure Password"
+                            aria-label="Generated Password"></textarea>
+                    </div>
+                </div>
+                <!--Button that will pull from the function generateButton-->
+                <div class="row buttons">
+                    <div class="col-md-12 space">
+                        <button id="generate" class="btn btn-danger" onClick="generateButton()">Generate
+                            Password</button>
+                    </div>
+                </div>
+                <script src="script.js"></script>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+
+</body>
